@@ -7,21 +7,37 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/rai_log.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "sdkVersion": "48.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.myatnoeooo.pid"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/rai_log.png",
         "backgroundColor": "#ffffff"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "c1b22b67-1c6f-4ee0-9916-55ddd4d0ed93"
+      }
+    }
+  },
+  "web": {
+    "favicon": "./assets/rai_log.png"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "c1b22b67-1c6f-4ee0-9916-55ddd4d0ed93"
     }
   }
 }
